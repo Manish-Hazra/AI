@@ -69,8 +69,9 @@ def problemGenerator(nCities):
 
 def main():
     tsp = problemGenerator(10)
-
-    print(hillClimbing(tsp))
+    print(tsp)
+    for i in range(10):
+        print(hillClimbing(tsp))
 
 if __name__ == "__main__":
     main()
