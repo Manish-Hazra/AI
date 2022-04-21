@@ -1,9 +1,5 @@
 import numpy
 
-# This project is extended and a library called PyGAD is released to build the genetic algorithm.
-# PyGAD documentation: https://pygad.readthedocs.io
-# Install PyGAD: pip install pygad
-# PyGAD source code at GitHub: https://github.com/ahmedfgad/GeneticAlgorithmPython
 
 def cal_pop_fitness(equation_inputs, pop):
     # Calculating the fitness value of each solution in the current population.
